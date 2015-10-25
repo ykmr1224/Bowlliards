@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ScrollView01" android:layout_width="fill_parent" android:background="@drawable/bg" android:layout_height="fill_parent">
+	<LinearLayout android:id="@+id/LinearLayout03"
+		android:orientation="vertical" android:paddingLeft="3pt" android:paddingRight="3pt" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<LinearLayout android:id="@+id/LinearLayout01"
+			android:layout_height="wrap_content" android:layout_width="wrap_content">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/PlayDateLabel"
+				android:text="@string/playDate" />
+			<Button android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/DateButton"
+				android:text="0000.00.00" />
+			<Button android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/TimeButton"
+				android:text="00:00" />
+		</LinearLayout>
+		<view class="org.ykmr.bowlliard.ScoreView" android:id="@+id/ScoreView"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" android:focusable="true" android:focusableInTouchMode="true">
+			<requestFocus />
+		</view>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/ScoreInputLabel"
+			android:text="@string/scoreInput" />
+		<view class="org.ykmr.bowlliard.ScoreInput" android:id="@+id/ScoreInput"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/CommentLabel"
+			android:text="@string/comment" />
+		<EditText android:id="@+id/CommentEdit"
+			android:layout_height="wrap_content" android:layout_width="fill_parent" />
+</LinearLayout>
+</ScrollView>

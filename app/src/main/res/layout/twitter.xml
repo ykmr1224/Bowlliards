@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/ScrollView01" android:layout_width="fill_parent" android:layout_height="fill_parent"><LinearLayout
+  android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="#ff444444">
+
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center" android:layout_gravity="center" android:background="#ff569ABC" android:layout_width="fill_parent"><ImageView android:id="@+id/ImageView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/twittericon" android:visibility="visible"></ImageView><ViewFlipper android:id="@+id/ViewFlipper01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:fadingEdge="horizontal|vertical" android:fadingEdgeLength="10px" android:padding="5px"><LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_gravity="center" android:id="@+id/InitialLayout">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TwitterLoginButton" android:text="@string/loginwith" android:textSize="20px"></Button>
+
+</LinearLayout><LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/InputPINLayout" android:orientation="vertical" android:layout_gravity="center"><LinearLayout android:id="@+id/LinearLayout03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="left"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TwitText" android:layout_gravity="center" android:text="PIN : " android:textColor="#ffffffff" android:textSize="20px"></TextView><EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TwitPINEdit" android:inputType="textVisiblePassword|number" android:width="120px"></EditText></LinearLayout><LinearLayout android:id="@+id/LinearLayout04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/verify" android:layout_gravity="center" android:id="@+id/PINVerifyButton" android:textSize="20px"></Button><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_gravity="center" android:id="@+id/PINCancelButton" android:textSize="20px"></Button></LinearLayout>
+
+
+
+
+</LinearLayout><LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:id="@+id/ReadyLayout" android:orientation="vertical"><LinearLayout android:id="@+id/LinearLayout05" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical" android:id="@+id/TwitText" android:text="@string/loginas" android:textColor="#ffffffff" android:textSize="20px"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical" android:id="@+id/LoginNameText" android:text="" android:minWidth="120px" android:textColor="#ffffffff" android:textSize="24px" android:layout_marginLeft="5px" android:layout_marginRight="5px" android:ellipsize="marquee"></TextView></LinearLayout><LinearLayout android:id="@+id/LinearLayout06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reset" android:id="@+id/ResetButton" android:textSize="20px" android:layout_gravity="right"></Button></LinearLayout>
+
+
+
+
+
+</LinearLayout></ViewFlipper></LinearLayout><EditText android:layout_gravity="center" android:layout_width="fill_parent" android:id="@+id/MessageEdit" android:text="aaaa" android:layout_height="fill_parent" android:lines="5"></EditText>
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_gravity="right" android:layout_width="fill_parent"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="30px" android:minWidth="120px" android:id="@+id/CharCountText" android:text="aaaa" android:textColor="#ffaaaaaa" android:layout_gravity="left|center_vertical" android:layout_weight="0.1"></TextView><ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/PostImage" android:minHeight="50px" android:maxHeight="50px" android:minWidth="50px" android:maxWidth="200px" android:adjustViewBounds="true" android:scaleType="fitXY" android:background="#ffffffff" android:layout_gravity="right|center_vertical"></ImageView>
+
+
+</LinearLayout>
+
+
+
+
+
+<LinearLayout android:id="@+id/LinearLayout07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="right" android:layout_gravity="right"><CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Image" android:id="@+id/ImageCheck" android:layout_marginRight="10px" android:enabled="false" android:textSize="20px" android:layout_gravity="right|center_vertical"></CheckBox><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TweetButton" android:text="@string/tweet" android:enabled="false" android:textSize="20px" android:layout_gravity="right|center_vertical"></Button></LinearLayout></LinearLayout>
+</ScrollView>

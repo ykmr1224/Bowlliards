@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="Save" android:id="@+id/SaveItem" android:icon="@android:drawable/ic_menu_save"></item>
+
+<item android:title="Clear" android:id="@+id/ClearItem" android:icon="@android:drawable/ic_menu_delete"></item><item android:id="@+id/TwitterItem" android:icon="@drawable/ic_menu_twitter" android:titleCondensed="Tweet" android:title="Tweet"></item><item android:id="@+id/SendItem" android:titleCondensed="Share" android:title="Share" android:icon="@android:drawable/ic_menu_share"></item>
+</menu>

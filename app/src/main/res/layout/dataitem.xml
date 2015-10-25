@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical" android:paddingBottom="3pt" android:paddingLeft="2pt" android:paddingRight="2pt">
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/ListDateText" android:text="DateText"/>
+	<view class="org.ykmr.bowlliard.ScoreView" android:id="@+id/ListScoreView"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

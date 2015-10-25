@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:title="New Game" android:id="@+id/NewItem" android:icon="@android:drawable/ic_menu_add"></item>
+<item android:title="Statistics" android:id="@+id/StatItem" android:titleCondensed="Stat" android:icon="@android:drawable/ic_menu_recent_history"></item><item android:id="@+id/SortMenu" android:title="Sort By..." android:titleCondensed="Sort" android:icon="@android:drawable/ic_menu_sort_by_size"><menu><item android:title="Score(ASC)" android:id="@+id/byscore_asc" android:visible="false"></item>
+<item android:id="@+id/byscore_desc" android:title="Score"></item>
+<item android:id="@+id/bytime_asc" android:title="Time(ASC)" android:visible="false"></item>
+<item android:id="@+id/bytime_desc" android:title="Time"></item>
+</menu>
+</item>
+<item android:titleCondensed="Rating" android:title="Rating" android:id="@+id/RatingItem" android:icon="@drawable/ic_menu_star"></item>
+</menu>

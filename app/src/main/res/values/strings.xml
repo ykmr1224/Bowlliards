@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="reset">Reset</string>
+    <string name="loginwith">Log in with Twitter</string>
+    <string name="loginas">Name : </string>
+    <string name="verify">Verify</string>
+    <string name="cancel">Cancel</string>
+    <string name="tweet">Tweet</string>
+    <string name="Image">Image</string>
+    <string name="list">SCORE LIST</string>
+    <string name="statistics">STATISTICS</string>
+    <string name="newgame">NEW GAME</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="clear">Clear</string>
+    <string name="save">Save</string>
+    <string name="comment">Comment :</string>
+    <string name="scoreInput">Score Input :</string>
+    <string name="playDate">Play date :</string>
+    <string name="hello">Hello World, BowlardActivity!</string>
+    <string name="app_name">Bowlliards Score Book</string>
+<string name="alertTitle">入力</string>
+</resources>

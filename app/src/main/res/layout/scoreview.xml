@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ScrollView01" android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="@drawable/bg">
+	<LinearLayout android:layout_height="wrap_content"
+		android:orientation="vertical" android:paddingLeft="3pt" android:paddingRight="3pt" android:layout_width="fill_parent" android:id="@+id/ScoreViewLinear">
+		<LinearLayout android:id="@+id/LinearLayout01"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/PlayDateLabel"
+				android:text="@string/playDate" android:textStyle="bold"/>
+			
+			
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@+id/PlayDateText" android:id="@+id/PlayDateText"></TextView>
+</LinearLayout>
+		<view class="org.ykmr.bowlliard.ScoreView" android:id="@+id/ScoreView"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		
+		
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/CommentLabel"
+			android:text="@string/comment" android:textStyle="bold"/>
+		
+		<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/CommentText" android:text="@+id/CommentText"></TextView>
+
+
+
+<TextView android:id="@+id/TextView01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:typeface="normal" android:text="Statistics :" android:textStyle="bold"></TextView>
+<LinearLayout android:layout_height="wrap_content" android:orientation="vertical" android:layout_width="fill_parent" android:id="@+id/StatisticsLinear"></LinearLayout>
+</LinearLayout>
+</ScrollView>

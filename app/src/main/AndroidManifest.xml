@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="org.ykmr.bowlliard"
+      android:versionName="1.1" android:versionCode="7">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".ScoreListActivity"
+                  android:label="@string/app_name" android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ScoreEditActivity"
+                  android:label="@string/app_name" android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".StatisticsActivity"
+                  android:label="@string/app_name" android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".ScoreViewActivity"
+                  android:label="@string/app_name" android:screenOrientation="landscape">
+        </activity>
+	<activity android:label="@string/app_name" android:name="org.ykmr.twitter.TwitterActivity"></activity>
+</application>
+    <uses-sdk android:minSdkVersion="3" />
+
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+</manifest>
